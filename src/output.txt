@@ -1,0 +1,57 @@
+PS E:\rust_project> cargo run add task1
+    Finished dev [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target\debug\todo.exe add task1`
+PS E:\rust_project> cargo run add task2
+    Finished dev [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target\debug\todo.exe add task2`
+PS E:\rust_project> cargo run add task3
+    Finished dev [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target\debug\todo.exe add task3`
+PS E:\rust_project> cargo run add task4
+    Finished dev [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target\debug\todo.exe add task4`
+PS E:\rust_project> cargo run add task5
+    Finished dev [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target\debug\todo.exe add task5`
+PS E:\rust_project> cargo run list
+    Finished dev [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target\debug\todo.exe list`
+1 task1
+2 task2
+3 task3
+4 task4
+5 task5
+PS E:\rust_project> cargo run done 1
+    Finished dev [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target\debug\todo.exe done 1`
+PS E:\rust_project> cargo run done 3
+    Finished dev [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target\debug\todo.exe done 3`
+PS E:\rust_project> cargo run raw done
+    Finished dev [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target\debug\todo.exe raw done`
+task1
+task3
+PS E:\rust_project> cargo run raw todo
+    Finished dev [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target\debug\todo.exe raw todo`
+task2
+task4
+task5
+PS E:\rust_project> cargo run sort
+    Finished dev [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target\debug\todo.exe sort`
+PS E:\rust_project> cargo run rm 4
+    Finished dev [unoptimized + debuginfo] target(s) in 0.04s
+     Running `target\debug\todo.exe rm 4`
+PS E:\rust_project> cargo run list
+    Finished dev [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target\debug\todo.exe list`
+1 task2
+2 task4
+3 task5
+4 task3
+PS E:\rust_project> cargo run clear
+    Finished dev [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target\debug\todo.exe clear`
+PS E:\rust_project>
